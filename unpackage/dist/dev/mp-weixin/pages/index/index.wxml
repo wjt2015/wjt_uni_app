@@ -1,0 +1,1 @@
+<view class="content"><view><view class="title" style="background:#4CD964;width:300rpx;color:#DD524D;"></view><label>hello uni-app!</label><view class="_hr"></view><label>android手机测试!</label><input class="text-area" type="text" value="请输入"/><view class="_br"></view><button type="primary">按钮</button></view></view>
