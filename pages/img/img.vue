@@ -1,7 +1,7 @@
 <template>
 	<view>
 		
-		<button type="primary" class="content" hover-class="">按一按</button>
+		<button type="primary" class="content" hover-class=""><h2>按一按</h2></button>
 		<hr/>
 		<view>
 			<map style="width: 100%;height:600px;" :latitude="latitude" :longitude="longitude" :marker="covers" enable-3D="true" show-compass="true"

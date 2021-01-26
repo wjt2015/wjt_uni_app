@@ -1,12 +1,28 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+	    "path" : "pages/my_view/my_view",
+	    "style" :                                                                                    
+	    {
+	        "navigationBarTitleText": "my_view",
+	        "enablePullDownRefresh": false
+	    }
+	    
+	},
+		{
+			"path": "pages/scroll_view/scroll_view",
+			"style": {
+				"navigationBarTitleText": "滑动区域测试",
+				"enablePullDownRefresh": false
+			}
+		},
 		{
 			"path": "pages/img/img",
 			"style": {
 				"navigationBarTitleText": "wjt图片测试",
 				"enablePullDownRefresh": false
 			}
-		},{
+		}, {
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "uni-app-index"
@@ -17,49 +33,63 @@
 				"navigationBarTitleText": "uni-app-home",
 				"enablePullDownRefresh": false
 			}
-
 		}
-	],
+	    ,{
+            "path" : "pages/api/api",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "api",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/component/component",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "component",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"tabBar":{
-		"color":"#DD524D",
-		"selectedColor":"#007AFF",
-		"borderStyle":"black",
-		"backgroundColor":"#8F8F94",
-		"height":"50px",
-		"iconWidth":"24px",
-		"fontSize":"10px",
-		"spacing":"3px",
-		"list":[
-			{
-				"pagePath":"pages/api/api",
-				"iconPath":"static/pic/0.jpg",
-				"selectedIconPath":"static/pic/1.jpg",
-				"text":"api"
-			},{
-				"pagePath":"pages/component/component",
-				"iconPath":"static/pic/2.jpg",
-				"selectedIconPath":"static/pic/3.jpg",
-				"text":"component"
-			},{
-				"pagePath":"pages/img/img",
-				"iconPath":"static/pic/4.jpg",
-				"selectedIconPath":"static/pic/5.jpg",
-				"text":"img"
-			}
-		],
-		"midButton":{
-			"width":"80px",
-			"height":"50px",
-			"text":"midButton",
-			"iconPath":"static/pic/11.jpg",
-			"iconWidth":"24px",
-			"backgroundImage":"static/pic/12.jpg"
+	"tabBar": {
+		"color": "#DD524D",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#8F8F94",
+		"height": "50px",
+		"iconWidth": "24px",
+		"fontSize": "10px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/api/api",
+			"iconPath": "static/pic/0.jpg",
+			"selectedIconPath": "static/pic/1.jpg",
+			"text": "api"
+		}, {
+			"pagePath": "pages/component/component",
+			"iconPath": "static/pic/2.jpg",
+			"selectedIconPath": "static/pic/3.jpg",
+			"text": "component"
+		}, {
+			"pagePath": "pages/img/img",
+			"iconPath": "static/pic/4.jpg",
+			"selectedIconPath": "static/pic/5.jpg",
+			"text": "img"
+		}],
+		"midButton": {
+			"width": "80px",
+			"height": "50px",
+			"text": "midButton",
+			"iconPath": "static/pic/11.jpg",
+			"iconWidth": "24px",
+			"backgroundImage": "static/pic/12.jpg"
 		}
 	}
 }
